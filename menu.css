@@ -1,0 +1,209 @@
+*{
+    padding:0;
+    font-family: "Almendra", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.main_box{
+    height:100vh;
+    background-image: url("css project.jpg");
+    background-size:cover;
+}
+.main_box .btn_one i{
+    font-size: 21px;
+    position: relative;
+    left: 15px;
+    top:35px;
+    cursor: pointer;
+
+    
+}
+.sidebar_menu{
+    height: 100vh;
+    position: fixed;
+    width:250px;
+    box-shadow: 0 0 8px rgb(166, 166, 166);
+    left:-300px;
+    transition: all 0.4s linear;
+
+}
+.sidebar_menu .logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    /*padding: 0 25px 0 8px ;*/
+    position: relative;
+    left: 48px;
+}
+.btn_two i{
+    position: relative;
+    left:225px;
+    bottom:25px;
+    
+}
+.menu li {
+    line-height: 60px;
+}
+.menu li i{
+    color: rgb(174, 171, 166);
+    padding: 15px;
+}
+.menu li a{
+    color:white ;
+    text-decoration: none;
+    font-size: 24px;
+}
+.social_media i{
+    color: rgb(207, 201, 201);
+    opacity: 0.8;
+    font-size: 20px;
+    padding: 15px;
+}
+#check{
+    display: none;
+}
+
+.sidebar_menu .menu li:hover{
+    box-shadow: 0 0 8px rgb(167, 166, 166) ;
+
+}
+.sidebar_menu .logo a:hover{
+    box-shadow: 0 0 8px rgb(167, 166, 166) ;
+}
+.btn_one i:hover{
+    font-size: 30px;
+     
+}
+.btn_two i:hover{
+    font-size: 25px;
+}
+.sidebar_menu .social_media i:hover{
+    transform: scale(1.4);
+    opacity: 2.5;
+}
+#check:checked ~.sidebar_menu{
+    left:0px;
+}
+#check:checked ~ .btn_one i{
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.sidebar_menu{
+    position: fixed;
+    height:100vh;
+    line-height: 55px;
+    box-shadow: 0 0 6px rgb(165, 164, 164);
+    /*background-color: rgb(75, 74, 74);*/
+ /*   left: -300px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    
+}
+.sidebar_menu .logo a{
+    color: white;
+    font-weight: 700;
+    font-size:30px ;
+    text-decoration:none;
+    position: relative;
+    top: 21px;
+    left:28px;
+}
+.sidebar_menu div{
+    color: rgb(110, 106, 106);
+    padding: 0 50px 0 15px;
+}
+
+
+/*@keyframes fontposition{
+    from
+    {position: fixed;}
+    to{left: -300px;}
+}
+.sidebar_menu{
+    animation: fontposition 0.5s ease-in 0.8s 1 normal;
+}*/
+/*.menu li{
+    list-style-type:none ;
+}
+.sidebar_menu .menu  i {
+    padding-right: 8px;
+}
+.sidebar_menu .social_media a{
+
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+    opacity: 0.4;
+}
+#check{
+    display: none;
+}
+.sidebar_menu .btn_two  {
+    position: relative;
+    left: 275px;
+    bottom: 35px;
+    opacity: 0;
+}
+.sidebar_menu .menu li:hover{
+    box-shadow: 0 0 8px rgb(101, 100, 100);
+}
+.sidebar_menu .social_media a:hover{
+    opacity: 1.5;
+    
+}
+.sidebar_menu .logo a:hover{
+    box-shadow: 0 0 7px rgb(125, 121, 121);
+
+}
+.btn_two i:hover{
+    font-size: 30px;
+   
+}
+.sidebar_menu .social_media i:hover{
+    transform: scale(1.4);
+  
+}
+#check:checked ~ .sidebar_menu {
+    left: 0;
+}*/
