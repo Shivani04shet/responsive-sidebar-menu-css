@@ -8,7 +8,7 @@ This is a simple, elegant, and responsive sidebar navigation menu built using **
 
 ## 📸 Preview
 
-![Preview Screenshot](preview.jpg) <!-- Add a screenshot of your UI here -->
+![Preview Screenshot](menu_preview.jpg) <!-- Add a screenshot of your UI here -->
 
 ---
 
