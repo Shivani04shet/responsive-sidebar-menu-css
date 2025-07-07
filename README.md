@@ -22,7 +22,6 @@ This is a simple, elegant, and responsive sidebar navigation menu built using **
 - Background image customization
 - Hover animations and effects
 
----
 
-## 📂 Project Structure
+
 
